@@ -1,0 +1,82 @@
+.container-1{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+.flex-box-container-1 ,.flex-blackjack-row-1 , .flex-blackjack-row-2, .flex-blackjack-row-3 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+.flex-blackjack-row-1 , .flex-blackjack-row-2 , fl {
+   background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.2wmgBSp8Ah7vT2OexowGnAHaEK%26pid%3DApi&f=1') center;
+   color: azure;
+}
+
+.flex-blackjack-row-1 div{
+   border: solid black;
+   padding: 10px;
+   height: 350px;
+   flex: 1;
+}
+
+.flex-blackjack-row-1 img{
+   height: 80px;
+   width: 80px;
+   padding: 5px;
+}
+.flex-blackjack-row-2 button{
+   padding: 10px;
+   border:1px solid black;
+}
+.flex-blackjack-row-2 div {
+   padding: 10px;
+   border:1px solid black;
+}
+
+.flex-blackjack-row-3 div table{
+   padding: 5px;
+   border:1px solid black;
+}
+.flex-blackjack-row-3 div th{
+   padding: 5px;
+   border:1px solid black;
+}
+.flex-blackjack-row-3 div td{
+   padding: 5px;
+   border:1px solid black;
+}
+.flex-box-container-1 div {
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+ }
+ .flex-box-result{
+    color: red;
+ }
+ .flex-box-container-2, .flex-box-rps{
+    display: flex;
+    border: 1px solid blue;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+ }
+ .flex-box-container-2 img{
+    box-shadow: 0 0 0 rgb(
+        255, 0, 0);
+    padding: 10px;
+ }
+
+ .container-3 .flex-box-rps img:hover{
+    box-shadow: 0, 10px, 0,  blue;
+ }
+
+ .container-5{
+   border-top:1px solid black;
+   border-bottom: 1px solid black;
+ }
